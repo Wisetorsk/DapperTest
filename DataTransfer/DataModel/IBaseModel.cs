@@ -7,6 +7,5 @@ namespace DataTransfer.DataModel
     {
         SortedList<int, TDto> Data { get; set; }
         bool HasData { get; }
-        IMetadata Metadata { get; set; }
     }
 }

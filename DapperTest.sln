@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperTest", "DapperTest\DapperTest.csproj", "{BCAB1923-982A-4057-ABFD-58F6A0A1A39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer", "DataTransfer\DataTransfer.csproj", "{AE2C9C09-3852-413D-8B2F-23A2762D388C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer", "DataTransfer\DataTransfer.csproj", "{AE2C9C09-3852-413D-8B2F-23A2762D388C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlers", "Handlers\Handlers.csproj", "{BFC90265-412F-4FBB-9AB4-AB1D757319E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{4180869F-1F92-4C69-9C09-B653013663D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AE2C9C09-3852-413D-8B2F-23A2762D388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE2C9C09-3852-413D-8B2F-23A2762D388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE2C9C09-3852-413D-8B2F-23A2762D388C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC90265-412F-4FBB-9AB4-AB1D757319E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC90265-412F-4FBB-9AB4-AB1D757319E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC90265-412F-4FBB-9AB4-AB1D757319E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC90265-412F-4FBB-9AB4-AB1D757319E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4180869F-1F92-4C69-9C09-B653013663D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4180869F-1F92-4C69-9C09-B653013663D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4180869F-1F92-4C69-9C09-B653013663D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4180869F-1F92-4C69-9C09-B653013663D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
